@@ -11,7 +11,7 @@
     "Milliseconds": 241684,
     "Bytes": 7876564,
     "UnitPrice": 0.99
-  },          +
+  },          
 {
     "TrackId": 424,
     "Name": "Innuendo",
@@ -22,7 +22,7 @@
     "Milliseconds": 387761,
     "Bytes": 12664591,
     "UnitPrice": 0.99
-  },              +
+  },              
 {
     "TrackId": 426,
     "Name": "Breakthru",
@@ -33,7 +33,7 @@
     "Milliseconds": 249234,
     "Bytes": 8150479,
     "UnitPrice": 0.99
-  },              +
+  },              
 {
     "TrackId": 428,
     "Name": "Headlong",
@@ -44,7 +44,7 @@
     "Milliseconds": 273057,
     "Bytes": 8921404,
     "UnitPrice": 0.99
-  },               +
+  },               
 {
     "TrackId": 429,
     "Name": "The Miracle",
@@ -55,7 +55,7 @@
     "Milliseconds": 294974,
     "Bytes": 9671923,
     "UnitPrice": 0.99
-  },            +
+  },            
 {
     "TrackId": 430,
     "Name": "I'm Going Slightly Mad",
@@ -66,7 +66,7 @@
     "Milliseconds": 248032,
     "Bytes": 8192339,
     "UnitPrice": 0.99
-  }, +
+  }, 
 {
     "TrackId": 431,
     "Name": "The Invisible Man",
@@ -77,7 +77,7 @@
     "Milliseconds": 238994,
     "Bytes": 7920353,
     "UnitPrice": 0.99
-  },      +
+  },      
 {
     "TrackId": 434,
     "Name": "The Show Must Go On",
@@ -88,7 +88,7 @@
     "Milliseconds": 263784,
     "Bytes": 8526760,
     "UnitPrice": 0.99
-  },    +
+  },    
 {
     "TrackId": 435,
     "Name": "One Vision",
