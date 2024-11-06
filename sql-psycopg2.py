@@ -7,15 +7,32 @@ connection = psycopg2.connect(database="chinook")
 #build a cursor object of the database
 cursor = connection.cursor()
 
-#Query 1 - selact all records from the 'Artist' table
-cursor.execute('SELECT * FROM "Artist"')
+#Query 1 - select all records from the 'Artist' table
+# cursor.execute('SELECT * FROM "Artist"')
 
+#Query 2 select only the "Name" column from the "artist" table
+# cursor.execute('SELECT "Name" FROM "Artist"')
+
+#Query 3 - select only "Queen" form the "Artist" table
+# cursor.execute('SELECT * FROM "Artist" WHERE "Name" = %s', ["Queen"])
+
+#Query 4 - select only by "ArtistId" 51 from thr "Artist" table
+# cursor.execute('SELECT * FROM "Artist" WHERE "ArtistId" = %s', ["51"])
+
+#Query 5 - select only the albums with "AristId of 51 on the "Album" table
+# cursor.execute('SELECT * FROM "Album" WHERE "ArtistId" = %s', ["51"])
+
+#Query 6 - select all tracks where the composer is "Queen" from the "Track" table
+# cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["Queen"])
+
+#Query 7 - select all tracks where the composer is "Alanis Morissette" from the "Track" table
+cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["test"])
 
 #fetch the results - multiple
 results = cursor.fetchall()
 
 #fetch the result - single
-#results = cursor.fetchone()
+# results = cursor.fetchone()
 
 #close the connection
 connection.close()
